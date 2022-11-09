@@ -1,3 +1,4 @@
+import { SignInButton } from "../SingInButton";
 import styles from "./styles.module.scss";
 export function Header() {
   return (
@@ -10,6 +11,7 @@ export function Header() {
           </a>
           <a href="">Posts</a>
         </nav>
+        <SignInButton></SignInButton>
       </div>
     </header>
   );
